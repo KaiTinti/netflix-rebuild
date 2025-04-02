@@ -1,0 +1,53 @@
+
+.header {
+  background-color: #000000;
+  color: #e4e4e4;
+  padding: 18px;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 0.5rem;
+  
+}
+
+.bHeader {
+  background-color: transparent;
+  border: none;
+  color: #a0a0a0;
+  margin-right: 20px;
+  font-size: 0.9rem;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+
+.bHeader:focus {
+  color: #ffffff;
+}
+
+.logo{
+  width: 110px;
+  margin-right: 40px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+  gap: 15px;
+}
+
+.icon {
+  font-family: "Material Symbols Outlined";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.icon:hover {
+  color: #ffffff;
+}
+
