@@ -3,11 +3,13 @@
   background-color: #000000;
   color: #e4e4e4;
   padding: 18px;
-  width: 100%;
+  padding-left: 50px;
+  max-width: 100vw;
   display: flex;
   justify-content: left;
   align-items: center;
   font-size: 0.5rem;
+  
   
 }
 
@@ -19,6 +21,7 @@
   font-size: 0.9rem;
   transition: color 0.2s ease-in-out;
   cursor: pointer;
+   max-width: 100vw;
 }
 
 
@@ -36,6 +39,7 @@
   align-items: center;
   margin-left: auto; 
   gap: 15px;
+  padding-right: 20px;
 }
 
 .icon {
