@@ -1,12 +1,12 @@
 import Header from "./Header";
+import Catalog from "./Catalog";
 
 function App() {
   return (
     <div>
       <Header />
       <main>
-        <h1>Bem-vindo ao meu clone!</h1>
-        <p>Comece a construir sua página aqui.</p>
+      <Catalog />
       </main>
     </div>
   );
